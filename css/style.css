@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    margin: 16px 151px 63px 151px;
+    background-color: #12071C;
+}
+header{
+    margin: 0px 121px;
+    position: relative;
+}
+.header_slider,.slider_item{
+    border-radius: 50px;
+}
+.header_top_panel{
+    background-color: #7941e8;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+}
+.header_top_panel_right{
+    display: flex;
+    flex-flow: row wrap ;
+    align-items: center;
+}
+.header_top_panel_right .menu ul{
+    display: flex;
+    flex-flow: row wrap ;
+    list-style-type:none;
+}
+.header_logo img{
+    margin: 35px 40px;
+    height: 26px;
+}
+.header_top_panel_right .menu ul li a, .header_phone a{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: navajowhite;
+    color: white;
+}
+.header_top_panel_right .menu ul li{
+    margin: 0px 16px;
+}
+.header_feedback, .header_phone{
+    margin: 0px 16px;
+}
+header button{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color:white;
+    background-color: #7941e8;
+    border: 1px solid #8052e3;
+    border-radius: 40px;
+    padding: 24px;
+    display: flex;
+}
+header button:after {
+    content: url('../image/arrow right.png');
+    margin-left: 8px;
+}
+.header_top_panel{
+    border: 1px solid #8052e3;
+}
+.slider_item{
+    background-image: url("../image/hero_image.png");
+    padding: 450px 80px 80px 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header_top_panel_wrapper{
+    width: 100%;
+    position: absolute;
+}
+h1{
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 96px;
+    text-align: left;
+    background: linear-gradient(180deg, #FFFFFF 50%, #CFCFCF 70%, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFFFFF;
+    max-width: 538px;
+}
+h4{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    max-width: 295px;
+    color: #FFFFFF;
+}
+button.white{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color:#12071C;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 40px;
+    padding: 24px;
+    display: flex;
+}
+body button.white:after {
+    content: url('../image/arrow right black.png');
+    margin-left: 8px;
+}
+
+.slider_navigation{
+    margin-top: 16px;
+    height: 45px;
+    display: flex;
+    position: relative;
+}
+.slider_navigation_items{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+.slider_navigation_item{
+    height: 45px;
+    background-size: contain;
+    width: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider_navigation_grad{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #12071C 0%, transparent 10% 90%, #12071C 100%);
+}
+.first_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.first_block .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1068px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: radial-gradient(#8548F4 -451%, #12071C 69%);
+    padding: 30px;
+}
+.first_block .item{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color:white;
+    width: 350px;
+    background-color: #12071C;
+    border-radius: 50px;
+    margin: 12px;
+    padding: 40px 80px;
+    min-height: 130px;
+}
+.first_block .item span{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color:white;
+}
+.item.icon_1{
+    background-image: url("../image/Stars.png");
+}
+.item.icon_2{
+    background-image: url("../image/monuscript.png");
+}
+.item.icon_3{
+     background-image: url("../image/Stream.png");
+ }
+.item.icon_4{
+      background-image: url("../image/Stairs.png");
+  }
+.item{
+    text-indent: 30px;
+    background-repeat: no-repeat;
+    background-position: 80px 40px;
+}
+.two_block,.tree_block{
+    margin: 150px 0px 30px 0px;
+    background-image: url("../image/wrapper.png");
+    background-position-y: top;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+h2{
+    padding:  40px 0px ;
+    color:white;
+    font-family: Inter;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62px;
+    text-align: center;
+    margin: 0px;
+}
+.two_block .tags{
+    padding: 40px 150px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.two_block .tag{
+    padding: 24px 32px 24px 88px;
+    margin: 8px;
+    border: 1px solid #2a2033;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: 30px 20px;
+}
+h3{
+    color:white;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    white-space: nowrap;
+}
+.two_block .tag.icon_1{
+    background-image: url("../image/Sales Departments from Scratch.png");
+}
+.two_block .tag.icon_2{
+    background-image: url("../image/Sales & Marketing Department Audit.png");
+}
+.two_block .tag.icon_3{
+    background-image: url("../image/Marketing Consulting.png");
+}
+.two_block .tag.icon_4{
+     background-image: url("../image/Brand Design & Strategy.png");
+ }
+.two_block .tag.icon_5{
+    background-image: url("../image/SMM.png");
+}
+.two_block .tag.icon_6{
+    background-image: url("../image/Sales Departments from Scratch (1).png");
+}
+.two_block .tag.icon_7{
+    background-image: url("../image/Google Ads.png");
+}
+.two_block .tag.icon_8{
+    background-image: url("../image/Email Marketing.png");
+}
+.two_block .tag.icon_9{
+    background-image: url("../image/SEO.png");
+}
+.h2_desc{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color:white;
+}
+.tile{
+    width: 300px;
+    height: 400px;
+}
+.tree_block .content{
+    display: flex;
+    justify-content: center;
+}
+.tiles{
+    display: flex;
+    width: 1180px;
+    height: 900px;
+    flex-flow:column wrap;
+    justify-content: center;
+    margin-top: 68px;
+}
+.tile{
+    width: 364px;
+    height: 356px;
+    background-color: white;
+    margin: 12px;
+    border-radius: 40px;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.tile:nth-child(1){
+    height: 480px;
+    background-image: url("../image/c3dce07fdc2a530ac0c3e91374c9aaa5.jpg");
+}
+.tile:nth-child(2){
+    background-image: url("../image/b9d53b6148372f52c3d350301183eea9.jpg");
+}
+.tile:nth-child(3){
+    background-image: url("../image/2196afcf1c6e95b92f3f2f9b7e152335.jpg");
+}
+.tile:nth-child(4){
+    height: 480px;
+    background-image: url("../image/a5145661d4b71d32d6e1350a50f5b54c.jpg");
+}
+.tile:nth-child(5){
+     height: 480px;
+    background-image: url("../image/8513a359bda4d709762c6135c62dd587.jpg");
+ }
+.tile:nth-child(6){
+    background-image: url("../image/b3519565f452bad734cf96a3cbdb1397.jpg");
+}
+.tree_block .tile .tags {
+    display: flex;
+    margin: 24px;
+}
+.tree_block .tile .tags .tag{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 4px;
+    border-radius: 32px;
+    padding:  4px 12px 4px 12px;
+    background-color: white;
+}
+.tile_content_title{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    white-space: nowrap; /* Текст не переносится */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+    text-overflow: ellipsis;
+    width: 90%;
+}
+.tile_content_title:after{
+    content: url("../image/arrow right black.png");
+    position: absolute;
+    right: 24px;
+    rotate: -45deg;
+}
+.tile_content_desc{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#32384d;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 45px;
+}
+.tile_content{
+    padding: 40px 24px 45px 24px;
+    backdrop-filter: blur(40px);
+    border-radius: 40px;
+}
+.btn_content{
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
